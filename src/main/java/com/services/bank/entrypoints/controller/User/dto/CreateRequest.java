@@ -1,4 +1,4 @@
-package com.services.bank.entrypoints.controller.customer.dto;
+package com.services.bank.entrypoints.controller.User.dto;
 
 import com.services.bank.constants.ApiConstants;
 import jakarta.validation.constraints.NotEmpty;
@@ -35,4 +35,7 @@ public class CreateRequest {
     @NotNull(message = "PASSWORD cannot be empty")
     @NotEmpty(message = "PASSWORD cannot be empty")
     String password;
+
+    @NotNull(message = "AMOUNT cannot be empty")
+    Double amount;
 }

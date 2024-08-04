@@ -14,4 +14,5 @@ public class UserDto {
     String cpfOrCnpj;
     String email;
     String password;
+    Double amount;
 }

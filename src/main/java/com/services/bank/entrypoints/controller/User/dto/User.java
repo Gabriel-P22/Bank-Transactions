@@ -1,4 +1,4 @@
-package com.services.bank.entrypoints.controller.customer.dto;
+package com.services.bank.entrypoints.controller.User.dto;
 
 import com.services.bank.enums.UserType;
 

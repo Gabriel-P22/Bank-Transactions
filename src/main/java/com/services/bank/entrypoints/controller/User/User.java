@@ -1,6 +1,6 @@
-package com.services.bank.entrypoints.controller.customer;
+package com.services.bank.entrypoints.controller.User;
 
-import com.services.bank.entrypoints.controller.customer.dto.CreateRequest;
+import com.services.bank.entrypoints.controller.User.dto.CreateRequest;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 

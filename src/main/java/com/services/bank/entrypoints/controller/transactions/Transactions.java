@@ -6,5 +6,5 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RequestBody;
 
 public interface Transactions {
-    ResponseEntity<Void> transfer(@Valid @RequestBody TransactionsRequest dto);
+    ResponseEntity<Void> transfer(@Valid @RequestBody TransactionsRequest dto) throws Exception;
 }

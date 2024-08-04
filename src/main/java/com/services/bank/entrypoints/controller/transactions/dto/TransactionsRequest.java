@@ -15,7 +15,7 @@ import java.math.BigDecimal;
 @Data
 public class TransactionsRequest {
     @NotNull(message = "Invalid amount")
-    BigDecimal amount;
+    Double amount;
 
     @NotNull(message = "Invalid amount")
     @NotEmpty(message = "Invalid amount")

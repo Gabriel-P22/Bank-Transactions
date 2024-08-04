@@ -1,4 +1,4 @@
-package com.services.bank.entrypoints.controller.customer.dto;
+package com.services.bank.entrypoints.controller.User.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
@@ -11,6 +11,6 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Data
 @Builder
-public class Store extends User {
-    String cnpj;
+public class Customer extends User {
+    String cpf;
 }
