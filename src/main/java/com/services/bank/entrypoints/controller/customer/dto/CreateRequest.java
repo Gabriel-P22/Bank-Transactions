@@ -1,5 +1,6 @@
 package com.services.bank.entrypoints.controller.customer.dto;
 
+import com.services.bank.constants.ApiConstants;
 import jakarta.validation.constraints.NotEmpty;
 import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Pattern;
@@ -22,7 +23,7 @@ public class CreateRequest {
     @NotNull(message = "CPF OR CNPJ cannot be empty")
     @NotEmpty(message = "CPF OR CNPJ be empty")
     @Pattern(
-            regexp = "^(?:\\d{3}\\.\\d{3}\\.\\d{3}-\\d{2}|\\d{11}|\\d{2}\\.\\d{3}\\.\\d{3}/\\d{4}-\\d{2}|\\d{14})$",
+            regexp = ApiConstants.CPF_OR_CNPJ_REGEX,
             message = "Invalid CPF or CPNJ"
     )
     String cpfOrCnpj;
