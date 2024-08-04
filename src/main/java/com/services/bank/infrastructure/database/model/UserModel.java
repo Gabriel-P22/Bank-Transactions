@@ -1,5 +1,6 @@
 package com.services.bank.infrastructure.database.model;
 
+import com.services.bank.enums.UserType;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;
@@ -16,4 +17,5 @@ public class UserModel {
     String cpfOrCnpj;
     String email;
     String password;
+    UserType type;
 }
