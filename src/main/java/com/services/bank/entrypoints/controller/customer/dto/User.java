@@ -1,6 +1,6 @@
 package com.services.bank.entrypoints.controller.customer.dto;
 
-import com.services.bank.CustomerType;
+import com.services.bank.enums.CustomerType;
 
 public abstract class User {
     String name;
