@@ -2,7 +2,7 @@ package com.services.bank.usecase.customer;
 
 import com.services.bank.entrypoints.adapter.UserAdapter;
 import com.services.bank.orchestrator.UserOrchestrator;
-import com.services.bank.usecase.dto.UserDto;
+import com.services.bank.usecase.customer.dto.UserDto;
 import lombok.AllArgsConstructor;
 import org.springframework.stereotype.Service;
 

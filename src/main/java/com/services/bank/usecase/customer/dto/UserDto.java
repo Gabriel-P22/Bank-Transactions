@@ -1,4 +1,4 @@
-package com.services.bank.usecase.dto;
+package com.services.bank.usecase.customer.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
