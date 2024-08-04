@@ -1,8 +1,7 @@
 package com.services.bank.usecase.customer;
 
-
-import com.services.bank.entrypoints.controller.customer.dto.CreateRequest;
+import com.services.bank.usecase.dto.UserDto;
 
 public interface CustomerUseCase {
-    void create(CreateRequest dto);
+    void create(UserDto dto);
 }

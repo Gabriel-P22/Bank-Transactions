@@ -20,6 +20,7 @@
 		<mapstruct.version>1.4.2.Final</mapstruct.version>
 		<mapstruct.processor.version>1.4.2.Final</mapstruct.processor.version>
 		<jakarta.version>3.0.2</jakarta.version>
+		<hibernate.version>7.0.4.Final</hibernate.version>
 	</properties>
 
 	<dependencies>
@@ -64,6 +65,11 @@
 			<groupId>jakarta.validation</groupId>
 			<artifactId>jakarta.validation-api</artifactId>
 			<version>${jakarta.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.hibernate.validator</groupId>
+			<artifactId>hibernate-validator</artifactId>
+			<version>${hibernate.version}</version>
 		</dependency>
 	</dependencies>
 
