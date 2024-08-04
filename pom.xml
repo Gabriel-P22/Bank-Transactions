@@ -19,8 +19,8 @@
 		<java.version>17</java.version>
 		<mapstruct.version>1.4.2.Final</mapstruct.version>
 		<mapstruct.processor.version>1.4.2.Final</mapstruct.processor.version>
-
 	</properties>
+
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
